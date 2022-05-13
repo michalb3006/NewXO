@@ -24,7 +24,7 @@ namespace Wpf_X__O
         {
             InitializeComponent();
         }
-        static int counterLine = 0;
+        static int counterLine = 1;
         public string[,] mat { get; set; } =  new string[3, 3];
 
         private void Button_Click(object sender, RoutedEventArgs e)
